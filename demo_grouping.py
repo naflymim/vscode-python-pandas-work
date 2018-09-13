@@ -29,8 +29,8 @@ for name, groupby_df in grouped:
     min_year = groupby_df['acquisitionYear'].min()
     print("{}: {}".format(name, min_year))'''
 
-def fiil_values(series):  
-    
+
+def fiil_values(series):      
     # Get the value count for the Medium series
     values_counted = series.value_counts(ascending=False)      
     if values_counted.empty:
