@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-df = pd.read_pickle(r"I:\Web Developments\Python\VSCode\Panadas\TateGallery\artwork_data_mod.zip", "zip")
+df = pd.read_pickle(r"I:\Web Developments\Python\VSCode\Panadas\Demo - Json\TateGallery\artwork_data_mod.zip", "zip")
 
 '''
 print(df.columns)

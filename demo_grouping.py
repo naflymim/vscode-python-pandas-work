@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import numpy as np
 
-csv_path = os.path.join(r"I:\Web Developments\Python\VSCode\Panadas\TateGallery", "artwork_data.csv")
+csv_path = os.path.join(r"I:\Web Developments\Python\VSCode\Panadas\Demo - Json\TateGallery", "artwork_data.csv")
 
 cols_to_use = ['id', 'artist', 'title', 'medium', 'year', 'acquisitionYear', 'height', 'width', 'units']
 df = pd.read_csv(csv_path, index_col='id', usecols=cols_to_use)
